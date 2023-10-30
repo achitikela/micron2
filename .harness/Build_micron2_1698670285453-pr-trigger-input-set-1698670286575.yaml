@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_micron2_1698670285453-pr-trigger-input-set
+  identifier: Build_micron2_1698670285453prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: project2
+  pipeline:
+    identifier: Build_micron2_1698670285453
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
